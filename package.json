@@ -1,5 +1,5 @@
 {
-  "name": "@angelalexqc/ec-dni-validator",
+  "name": "ec-dni-validator",
   "version": "1.0.0",
   "description": "A simple validator of Ecuadorian identity card numbers, also called \"cédulas\".",
   "main": "lib/index.js",
