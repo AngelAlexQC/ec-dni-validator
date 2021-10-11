@@ -7,7 +7,7 @@ Validar cédulas de identidad de Ecuador
 ## Install:
 
 ```
-npm i @angelalexqc/ec-dni-validator
+npm i ec-dni-validator
 ```
 
 ## Usage:
@@ -15,7 +15,7 @@ npm i @angelalexqc/ec-dni-validator
 Javascript:
 
 ```javascript
-const validator = require('@angelalexqc/ec-dni-validator');
+const validator = require('ec-dni-validator');
 console.log(validator.isValidDNI('0904939055'));
 // true or false
 ```
@@ -24,7 +24,7 @@ Typescript:
 
 ```typescript
 // Require type:module in package.json
-import { isValidDNI } from '@angelalexqc/ec-dni-validator';
+import { isValidDNI } from 'ec-dni-validator';
 console.log(isValidDNI('0904939055'));
 // true or false
 ```
