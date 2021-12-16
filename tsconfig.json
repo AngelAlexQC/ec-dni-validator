@@ -6,6 +6,6 @@
     "outDir": "./lib",
     "strict": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/index.js"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }

@@ -2,7 +2,7 @@
 
 Validate DNI numbers of Ecuadorian citizens.
 
-Validar cédulas de identidad de Ecuador
+Validar cédulas de identidad o RUC de Ecuador
 
 ## Install:
 
