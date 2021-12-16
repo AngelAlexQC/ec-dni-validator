@@ -1,3 +1,4 @@
+/* tslint:disable */
 export function isValidDNI(dni: string): boolean {
   if (dni == null || dni == '') {
     return false;
