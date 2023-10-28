@@ -4,7 +4,6 @@
   "description": "A simple validator of Ecuadorian identity card numbers, also called \"cédulas\" or \"RUC\".",
   "main": "lib/index.js",
   "scripts": {
-    "prepublishOnly": "npm test",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
