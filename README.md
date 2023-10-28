@@ -29,3 +29,5 @@ console.log(isValidDNI("0904939055"));
 ```
 
 ## License
+
+MIT
