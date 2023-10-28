@@ -1,6 +1,6 @@
 {
   "name": "ec-dni-validator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A simple validator of Ecuadorian identity card numbers, also called \"cédulas\" or \"RUC\".",
   "main": "lib/index.js",
   "scripts": {
