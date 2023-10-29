@@ -23,7 +23,6 @@ console.log(validator.isValidDNI("0904939055"));
 Typescript:
 
 ```typescript
-// Require type:module in package.json
 import { isValidDNI } from "ec-dni-validator";
 console.log(isValidDNI("0904939055"));
 // true or false
