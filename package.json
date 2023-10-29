@@ -1,0 +1,40 @@
+{
+  "name": "ec-dni-validator",
+  "version": "2.0.0",
+  "description": "A simple validator of Ecuadorian identity card numbers, also called \"cédulas\" or \"RUC\".",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelAlexQC/ec-dni-validator.git"
+  },
+  "keywords": [
+    "validator",
+    "cedula",
+    "dni",
+    "ecuador",
+    "ruc",
+    "validador",
+    "validar",
+    "cédula"
+  ],
+  "author": "Ángel Quiroz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngelAlexQC/ec-dni-validator/issues"
+  },
+  "homepage": "https://github.com/AngelAlexQC/ec-dni-validator#readme",
+  "files": [
+    "lib/**/*."
+  ],
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
