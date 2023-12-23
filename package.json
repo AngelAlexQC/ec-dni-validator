@@ -7,10 +7,7 @@
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AngelAlexQC/ec-dni-validator"
-  },
+  "repository": "https://github.com/AngelAlexQC/ec-dni-validator",
   "keywords": [
     "validator",
     "cedula",
